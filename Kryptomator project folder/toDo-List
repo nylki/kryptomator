@@ -1,0 +1,24 @@
+
+-crypto piping (applying several different algorithms on a file in a row)
+-possibility to compress folders before encrypting
+-better plug-in handling
+-integrated help
+-more password options, eg. using files for key/password
+-having categories for ciphers
+-keychain access
+-smooth animated drag view
+-more effects preferences
+-double clicking file/dropping file on icon ---  to open kryptomator
+-application icon
+-spiffy about window
+-menuItem for Finder, when ctrl-clicking a file
+-Dock menu options
+
+-figuring out why NSOperation/-Queue needs so much CPU time, maybe using other ways to do a Queue
+
+
+Ideas
+
+cipher can have "subCiphers" array.
+Which will be displayed in a subview later in the cipher choose popupmenu.
+And the subCiphers are then used as aditional argument for the cipher.

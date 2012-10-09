@@ -1,0 +1,104 @@
+/*
+
+***BINARY***
+For Private/non-commercial use: free
+
+commercial use: request + payment
+
+
+***SOURCE***
+Source may not be used for commercial use
+
+may be used for non-commercial use/private use
+source only allowed for other open source programs
+
+ If redistributed, this licence must remain
+ */
+
+#import <Cocoa/Cocoa.h>
+#import "TDDropView.h"
+#import "TBPluginVerifier.h"
+#import "CipherPlugin.h"
+#import "TBPreferencesWindowController.h"
+#import "TDScreenFlasher.h"
+
+extern NSString *TBEncryptionOperationKey;
+extern NSString *TBDecryptionOperationKey;
+
+@interface TBKryptomator : NSObject
+{
+	
+	IBOutlet NSPopUpButton *cipherPopUpButton;
+	IBOutlet NSTextField *inputNameTextField;
+	IBOutlet NSTextField *outputNameTextField;
+	IBOutlet NSTextField *passwordTextField;
+	IBOutlet NSArrayController *droppedFilesArrayController;
+	IBOutlet NSArrayController *pluginArrayController;
+	IBOutlet NSWindow *mainWindow;
+	IBOutlet NSWindow *installPluginsSheet;
+	IBOutlet NSWindow *passwordSheet;
+    IBOutlet TDDropView *dropView_drop;
+    IBOutlet NSImageView *imageView_dropIcon;
+    IBOutlet NSImageView *imageView_dropImage;
+    IBOutlet NSProgressIndicator *droppingProgressIndicator;
+    IBOutlet NSTextField *textField_result;
+    IBOutlet NSTextField *textField_status;
+    IBOutlet NSView *dropView;
+    IBOutlet NSView *manageView;
+	IBOutlet NSView *advancedManageView;
+	IBOutlet NSView *statusView;
+	IBOutlet NSImageView *imageViewDropImage;
+    IBOutlet NSImageView *imageViewDropBackground;
+	IBOutlet NSArrayController* itemArrayController;
+	
+	IBOutlet NSProgressIndicator *statusBar;
+	IBOutlet NSTextField *statusTextField;
+	
+	IBOutlet NSArrayController *operationsController;
+	
+	NSOperationQueue *operationQueue;
+	double operationCount;
+	
+	NSImage *_fullTrashImage;
+	NSImage *_appDraggedImage;
+	NSImage *_trashImage;
+	NSImage *_statusBorderImage;
+	
+	NSMutableArray *droppedFilesArray;
+	
+	NSUserDefaults *defaults;
+	NSNotificationCenter *nc;
+	NSFileManager *fm;
+	TBPluginVerifier *pluginVerifier;
+	NSString *inputFile, *outputFile;
+	
+}
+
+@property NSOperationQueue *operationQueue;
+
+- (NSMutableArray*) droppedFilesArray;
+- (void) setDroppedFilesArray:(NSMutableArray*)newObject;
+-(void) acceptDroppedFiles:(NSArray*)filesArray;
+- (IBAction)clickedInputButton:(id)sender;
+- (IBAction)clickedOutputButton:(id)sender;
+- (IBAction)clickedDecryptButton:(id)sender;
+- (IBAction)clickedEncryptButton:(id)sender;
+
+-(IBAction)clickedPasswordSheetOK:(id)sender;
+-(IBAction)clickedPasswordSheetCancel:(id)sender;
+-(IBAction)cancelOperations:(id)sender;
+
+- (IBAction)showPreferencesWindow:(id)sender;
+-(void) doEffectsAfterOperationsFinished;
+- (IBAction)cancelInstallPluginsSheet:(id)sender;
+- (IBAction)endInstallPluginsSheet:(id)sender;
+-(void) handleChangedPluginPreferences: (NSNotification*) note;
+- (void)setMainView:(NSView *) newView;
+- (IBAction)showAdvancedSettings:(id) sender;
+- (IBAction)showPreferencesWindow:(id) sender;
+- (IBAction)cancelManageWindow:(id)sender;
+- (void) prepareForCryptoOperation:(NSString*)cryptoMethod;
+- (NSString*) stringForProgress;
+- (double) intForProgress;
+
+@end

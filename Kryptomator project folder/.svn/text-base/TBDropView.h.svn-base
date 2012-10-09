@@ -1,0 +1,33 @@
+/* TDDropView */
+/*
+ 
+ ***BINARY***
+ For Private/non-commercial use: free
+ 
+ commercial use: request + payment
+ 
+ 
+ ***SOURCE***
+ Source may not be used for commercial use
+ 
+ may be used for non-commercial use/private use
+ source only allowed for other open source programs
+ 
+ If redistributed, this licence must remain
+ */
+
+#import <Cocoa/Cocoa.h>
+
+
+@interface TDDropView : NSView
+{
+    IBOutlet NSImageView *imageView_dropImage;
+    IBOutlet NSImageView *imageView_dropBackground;
+	
+	NSImage *_fullTrashImage;
+	NSImage *_appDraggedImage;
+	NSImage *_trashImage;
+	NSImage *_statusBorderImage;
+}
+
+@end

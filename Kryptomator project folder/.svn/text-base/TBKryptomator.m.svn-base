@@ -1,0 +1,358 @@
+/*
+ 
+ ***BINARY***
+ For Private/non-commercial use: free
+ 
+ commercial use: request + payment
+ 
+ 
+ ***SOURCE***
+ Source may not be used for commercial use
+ 
+ may be used for non-commercial use/private use
+ source only allowed for other open source programs
+ 
+ If redistributed, this licence must remain
+ */
+
+#import "TBKryptomator.h"
+#import "TDObject.h"
+
+#import "ExpandedPathToLargeIconTransformer.h"
+#import "ExpandedPathToSmallIconTransformer.h"
+#import "TDPathToNameTransformer.h"
+
+NSString *TBEncryptionOperationKey = @"encryptionOperation";
+NSString *TBDecryptionOperationKey = @"decryptionOperation";
+
+//for the manage view. if choosed crypto algorithm, fade in encrypt + decrypt button, else only a cancel button.
+
+
+@implementation TBKryptomator
+
+
+
+#pragma mark -
+#pragma mark initializers and notifications
+#pragma mark -
+
++ (void) initialize
+{
+    /* Default prefs */
+    [[NSUserDefaults standardUserDefaults] registerDefaults: [NSDictionary dictionaryWithContentsOfFile:
+															  [[NSBundle mainBundle] pathForResource: @"Defaults" ofType: @"plist"]]];
+	
+	/* Set custom value transformers */
+    ExpandedPathToLargeIconTransformer * largeIconTransformer =
+	[[[ExpandedPathToLargeIconTransformer alloc] init] autorelease];
+    [NSValueTransformer setValueTransformer: largeIconTransformer forName: @"ExpandedPathToLargeIconTransformer"];
+    
+    ExpandedPathToSmallIconTransformer * smallIconTransformer =
+	[[[ExpandedPathToSmallIconTransformer alloc] init] autorelease];
+    [NSValueTransformer setValueTransformer: smallIconTransformer forName: @"ExpandedPathToSmallIconTransformer"];
+    
+    TDPathToNameTransformer * nameTransformer =
+	[[[TDPathToNameTransformer alloc] init] autorelease];
+    [NSValueTransformer setValueTransformer: nameTransformer forName: @"TDPathToNameTransformer"];
+}
+
+@synthesize operationQueue;
+
+- (id) init
+{
+    if ((self = [super init]))
+        [TDObject setSharedKryptomatorInstance:self];
+	defaults = [NSUserDefaults standardUserDefaults];
+	nc = [NSNotificationCenter defaultCenter];
+	[nc addObserver:self
+		   selector:@selector(handleChangedPluginPreferences:)
+			   name:@"TBPluginPreferencesChanged" object:nil];
+	
+	NSBundle *bundle = [NSBundle mainBundle];
+	
+	_fullTrashImage =		[[NSImage alloc] initWithContentsOfFile: 
+							 [bundle pathForResource:@"FullTrashIcon"	ofType: @"png"]];
+	
+	_appDraggedImage =		[[NSImage alloc] initWithContentsOfFile: 
+							 [bundle pathForResource:@"AppDragged2"		ofType: @"png"]];
+	
+	_trashImage =			[[NSImage alloc] initWithContentsOfFile: 
+							 [bundle pathForResource:@"TrashIcon"		ofType: @"png"]];
+	
+	_statusBorderImage =	[[NSImage alloc] initWithContentsOfFile: 
+							 [bundle pathForResource:@"StatusBorder"		ofType: @"png"]];
+	
+	[bundle release];
+	fm = [NSFileManager defaultManager];
+	nc = [NSNotificationCenter defaultCenter];
+	[nc addObserver:self
+		   selector:@selector(handleFinishedOperation:)
+			   name:@"TBCryptoOperationDidFinish"
+			 object:nil];
+
+	 
+	 
+	pluginVerifier = [TBPluginVerifier new];
+	[NSApp setDelegate:self];
+	droppedFilesArray = [[NSMutableArray alloc]init];
+	
+	[statusBar setUsesThreadedAnimation:YES];
+	
+	
+    return self;
+}
+
+
+- (void) applicationWillFinishLaunching:(NSNotification *)notification
+{
+    /* Load controllers */
+    
+    [dropView_drop registerForDraggedTypes: 
+	 [NSArray arrayWithObjects:NSFilenamesPboardType, nil]];
+    
+    /* Prepare and show the main window */
+    [self setMainView:nil];
+    [mainWindow makeKeyAndOrderFront:nil];
+	[self handleChangedPluginPreferences:nil];
+}
+
+- (BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
+{ 
+    return YES;
+}
+
+- (void) setMainView:(NSView *) newView
+{
+    NSView *view = dropView; /* default */
+    if (newView)
+        view = newView;
+    
+    NSWindow *window = mainWindow;
+    if ([window contentView] == view)
+        return;
+    
+    NSRect windowRect = [window frame];
+    int difference = [view frame].size.height - [[window contentView] frame].size.height;
+    windowRect.origin.y -= difference;
+    windowRect.size.height += difference;
+    
+    [view setHidden: YES];
+    [window setContentView: view];
+	[[window animator] setFrame: windowRect display: YES];
+    [view setHidden: NO];
+}
+
+- (IBAction)cancelManageWindow:(id)sender
+{
+	[textField_status setStringValue:@"drop files here"];
+	[itemArrayController removeObjects:[itemArrayController content]];
+	[self setMainView:dropView];
+}
+
+- (IBAction)showAdvancedSettings:(id) sender
+{
+	[self setMainView:advancedManageView];
+}
+
+#pragma mark -
+#pragma mark button actions
+#pragma mark -
+
+- (IBAction)clickedDecryptButton:(id)sender
+{
+	[[NSApplication sharedApplication] beginSheet: passwordSheet
+								   modalForWindow: mainWindow
+									modalDelegate: self
+								   didEndSelector: @selector(passwordSheetDidEnd:returnCode:contextInfo:)
+									  contextInfo: TBDecryptionOperationKey  ];
+}
+
+
+- (IBAction)clickedEncryptButton:(id)sender
+{
+	[[NSApplication sharedApplication] beginSheet: passwordSheet
+								   modalForWindow: mainWindow
+									modalDelegate: self
+								   didEndSelector: @selector(passwordSheetDidEnd:returnCode:contextInfo:)
+									  contextInfo: TBEncryptionOperationKey ];
+}
+
+
+-(void) passwordSheetDidEnd: (NSWindow *) sheet
+				 returnCode: (int) returnCode
+				contextInfo: (void*) contextInfo
+{
+	if (returnCode == 1)
+		[self prepareForCryptoOperation: contextInfo];
+}
+
+- (void) prepareForCryptoOperation:(NSString*)cryptoMethod
+{
+	Class choosenCipher = [[pluginArrayController selectedObjects] objectAtIndex:0];
+	NSString *path;
+	NSDictionary *fileDict;
+	BOOL isDir;
+	
+	operationQueue = [[NSOperationQueue alloc] init];
+	operationQueue.maxConcurrentOperationCount = 6;
+	
+	for( fileDict in droppedFilesArray){  //iterate through all dropped *files*
+		if([fileDict valueForKey:@"isEnabled"] == YES)
+			continue;		
+		path = [fileDict objectForKey:@"path"];
+		
+
+		
+		if ([fm fileExistsAtPath:path isDirectory:&isDir] && isDir) { // if item is directory, iterate through it
+			NSDirectoryEnumerator *dirEnum = [fm enumeratorAtPath:path];
+			NSString *subPath;
+			while(( subPath = [dirEnum nextObject]) != nil){
+				subPath = [path stringByAppendingPathComponent:subPath];
+				NSOperation *newCryptoOperation;
+				
+				if ([fm fileExistsAtPath:subPath isDirectory:&isDir] && (isDir == NO)){
+					if([cryptoMethod isEqualToString:TBEncryptionOperationKey]){ //encrypt or decrypt?
+						newCryptoOperation = [[choosenCipher alloc] initCryptoOperationOfKind:TBEncryptionOperationKey
+																			   withSourcePath:subPath
+																			  destinationPath:[subPath stringByAppendingString:@".encryped"]
+																					 password:nil];
+					}else{
+						newCryptoOperation = [[choosenCipher alloc] initCryptoOperationOfKind:TBDecryptionOperationKey
+																			   withSourcePath:subPath
+																			  destinationPath:[subPath stringByAppendingString:@".decryped"]
+																					 password:nil];
+					}
+					[operationQueue addOperation:newCryptoOperation];
+					operationCount++; [statusBar setMaxValue:(double)operationCount];
+				}
+			}		
+		}else{ // if item is no directory
+			NSOperation *newCryptoOperation;
+			if([cryptoMethod isEqualToString:TBEncryptionOperationKey]){
+				newCryptoOperation = [[choosenCipher alloc] initCryptoOperationOfKind:TBEncryptionOperationKey
+																	   withSourcePath:path
+																	  destinationPath:[path stringByAppendingString:@".encryped"]
+																			 password:nil];
+			}else{
+				newCryptoOperation = [[choosenCipher alloc] initCryptoOperationOfKind:TBDecryptionOperationKey
+																	   withSourcePath:path
+																	  destinationPath:[path stringByAppendingString:@".decryped"]
+																			 password:nil];
+			}
+			
+			[operationQueue addOperation:newCryptoOperation];
+			operationCount++; [statusBar setMaxValue:(double)operationCount];
+		}
+		
+	}
+	[statusBar setMaxValue:(double)operationCount];
+	[statusBar setIndeterminate:NO];
+	[statusBar startAnimation:self];
+	[self setMainView:statusView];
+	
+	[[NSWorkspace sharedWorkspace] noteFileSystemChanged:outputFile];
+	[droppedFilesArrayController removeObjects:[droppedFilesArrayController content]];
+	
+}
+
+-(void) doEffectsAfterOperationsFinished
+{
+	if( [defaults objectForKey:@"flashScreen"] )
+		[[TDScreenFlasher new] flashScreen];
+	
+	if( [defaults objectForKey:@"playSound"]){
+		NSSound *soundToPlay = [NSSound soundNamed: [defaults objectForKey:@"soundToPlay"]];
+		[soundToPlay play];
+	}
+}
+
+-(IBAction)clickedPasswordSheetOK:(id)sender
+{
+	[passwordSheet orderOut:sender];
+	[NSApp endSheet:passwordSheet returnCode:1];	
+}
+
+-(IBAction)clickedPasswordSheetCancel:(id)sender
+{
+	[passwordSheet orderOut:sender];
+	[NSApp endSheet:passwordSheet returnCode:0];
+}
+
+#pragma mark -
+#pragma mark handle notifications and accessor methods
+#pragma mark -
+
+-(void) handleChangedPluginPreferences: (NSNotification*) note
+{//reload arrayController with new plugins
+	
+	//remove all plugins from current pluginArrayController
+	[pluginArrayController removeObjects:[pluginArrayController content]];
+	
+	//reload pluginArrayController with new plugins from the defaults
+	for(NSDictionary *pluginDict in [defaults objectForKey:@"plugins"]){
+		id plugin = [pluginVerifier pluginClassAtPath:[pluginDict objectForKey:@"path"]];
+		if(plugin != nil)
+			[pluginArrayController addObject:plugin];
+	}
+}
+
+- (void)passWordSheetDidEnd:(NSAlert *)alert returnCode:(int)returnCode contextInfo:(void *)contextInfo
+{
+	
+}
+
+-(void) handleFinishedOperation:(NSNotification*)note
+{
+	[statusBar incrementBy:1.0];
+	[statusTextField setStringValue:[NSString stringWithFormat:@"%i/%i files", (int)[statusBar doubleValue],(int)operationCount]];
+	
+	//If all operations done:
+	if ( [statusBar doubleValue] == operationCount){
+		[statusBar setIndeterminate:YES];
+		[self doEffectsAfterOperationsFinished];
+	}
+		
+	NSLog(@"operation finished!");
+}
+
+
+- (NSMutableArray*) droppedFilesArray
+{
+	return droppedFilesArray;
+}
+
+-(IBAction)cancelOperations:(id)sender
+{
+	[operationQueue cancelAllOperations];
+	[operationQueue release];
+	[self setMainView:dropView];
+	[statusBar setDoubleValue:0];
+	operationCount = 0;
+}
+
+- (void) setDroppedFilesArray:(NSMutableArray*)newObject
+{
+	[droppedFilesArray release];
+	[newObject retain];
+	droppedFilesArray = newObject;
+}
+
+-(void) acceptDroppedFiles:(NSArray*)files
+{
+	NSLog(@"accept dropped files: %@",files);
+	[droppingProgressIndicator setHidden:NO];
+	[droppingProgressIndicator startAnimation:self];
+	[droppedFilesArrayController addObjects:files];
+	sleep(1); //to demonstrate the process indicator
+	[self setMainView:manageView];
+	[droppingProgressIndicator stopAnimation:self];
+	[droppingProgressIndicator setHidden:YES];
+}
+
+- (IBAction)showPreferencesWindow:(id)sender
+{
+	[[TBPreferencesWindowController preferencesWindowController] showWindow:nil];
+}
+
+
+@end

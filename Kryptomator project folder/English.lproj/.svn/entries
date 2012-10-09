@@ -1,0 +1,47 @@
+8
+
+dir
+25
+https://tombr@svn.origo.ethz.ch/kryptomator/Kryptomator/English.lproj
+https://tombr@svn.origo.ethz.ch/kryptomator
+
+
+
+2008-01-25T23:24:12.006528Z
+25
+tombr
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+586470ea-640e-48d0-9f51-b860b4c68612
+
+InfoPlist.strings
+file
+
+
+
+
+2008-01-25T23:25:10.000000Z
+b7d1087bd0970a71456111b9f08dd301
+2008-01-25T23:24:12.006528Z
+25
+tombr
+has-props
+
+MainMenu.nib
+dir
+
+PreferencesWindow.nib
+dir
+

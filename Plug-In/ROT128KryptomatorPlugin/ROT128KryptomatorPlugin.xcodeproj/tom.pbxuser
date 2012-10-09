@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = E218251D0CA2F99D00876F15 /* ROT128KryptomatorPlugin */;
+		addToTargets = (
+			E218251D0CA2F99D00876F15 /* ROT128KryptomatorPlugin */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = E218249D0CA2C2FF00876F15 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					183,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					782,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					742,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 241119334;
+			PBXWorkspaceStateSaveDate = 241119334;
+		};
+		perUserProjectItems = {
+			E2150BE30D5222CD00EC46C7 /* PBXTextBookmark */ = E2150BE30D5222CD00EC46C7 /* PBXTextBookmark */;
+			E21825710CA2FC2600876F15 /* PBXTextBookmark */ = E21825710CA2FC2600876F15 /* PBXTextBookmark */;
+			E21825BC0CA3028600876F15 /* PBXTextBookmark */ = E21825BC0CA3028600876F15 /* PBXTextBookmark */;
+			E241411C0D187BA600A42675 /* PBXTextBookmark */ = E241411C0D187BA600A42675 /* PBXTextBookmark */;
+			E241411D0D187BA600A42675 /* PBXTextBookmark */ = E241411D0D187BA600A42675 /* PBXTextBookmark */;
+			E28D46540E5F821100F00469 /* PBXTextBookmark */ = E28D46540E5F821100F00469 /* PBXTextBookmark */;
+			E28D46550E5F821100F00469 /* PBXTextBookmark */ = E28D46550E5F821100F00469 /* PBXTextBookmark */;
+			E28D46560E5F821100F00469 /* PBXTextBookmark */ = E28D46560E5F821100F00469 /* PBXTextBookmark */;
+			E28D46570E5F821100F00469 /* PBXTextBookmark */ = E28D46570E5F821100F00469 /* PBXTextBookmark */;
+			E28D46580E5F821100F00469 /* PBXTextBookmark */ = E28D46580E5F821100F00469 /* PBXTextBookmark */;
+			E2A8F0620D47D1FC008866A3 /* PBXTextBookmark */ = E2A8F0620D47D1FC008866A3 /* PBXTextBookmark */;
+			E2A8F0630D47D1FC008866A3 /* PBXTextBookmark */ = E2A8F0630D47D1FC008866A3 /* PBXTextBookmark */;
+			E2DB89580CAEC95D0026B6B5 /* PBXTextBookmark */ = E2DB89580CAEC95D0026B6B5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = E218249C0CA2C2FF00876F15 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32DBCF630370AF2F00C91783 /* ROT128KryptomatorPlugin_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {960, 552}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 178}";
+			sepNavVisRect = "{{0, 0}, {610, 369}}";
+		};
+	};
+	E2150BE30D5222CD00EC46C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E21824AA0CA2C41100876F15 /* CipherPlugin.h */;
+		name = "CipherPlugin.h: 12";
+		rLen = 0;
+		rLoc = 200;
+		rType = 0;
+		vrLen = 636;
+		vrLoc = 0;
+	};
+	E218249C0CA2C2FF00876F15 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	E218249D0CA2C2FF00876F15 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E21824AA0CA2C41100876F15 /* CipherPlugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {960, 552}}";
+			sepNavSelRange = "{200, 0}";
+			sepNavVisRange = "{0, 636}";
+			sepNavVisRect = "{{0, 0}, {1129, 579}}";
+		};
+	};
+	E218251D0CA2F99D00876F15 /* ROT128KryptomatorPlugin */ = {
+		activeExec = 0;
+	};
+	E218251F0CA2F99E00876F15 /* ROT128KryptomatorPlugin-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {960, 552}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 712}";
+			sepNavVisRect = "{{0, 0}, {1129, 579}}";
+		};
+	};
+	E21825710CA2FC2600876F15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E21824AA0CA2C41100876F15 /* CipherPlugin.h */;
+		name = "CipherPlugin.h: 7";
+		rLen = 0;
+		rLoc = 80;
+		rType = 0;
+		vrLen = 410;
+		vrLoc = 0;
+	};
+	E21825BC0CA3028600876F15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF630370AF2F00C91783 /* ROT128KryptomatorPlugin_Prefix.pch */;
+		name = "ROT128KryptomatorPlugin_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 178;
+		vrLoc = 0;
+	};
+	E24140DB0D17C52900A42675 /* KryptomatorGeneralCryptoOperation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {960, 686}}";
+			sepNavSelRange = "{162, 23}";
+			sepNavVisRange = "{186, 1052}";
+		};
+	};
+	E24140DC0D17C52900A42675 /* KryptomatorGeneralCryptoOperation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {960, 1946}}";
+			sepNavSelRange = "{1729, 57}";
+			sepNavVisRange = "{2351, 921}";
+		};
+	};
+	E241411C0D187BA600A42675 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E24140DB0D17C52900A42675 /* KryptomatorGeneralCryptoOperation.h */;
+		name = "ROT128KryptomatorOperation.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	E241411D0D187BA600A42675 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E24140DC0D17C52900A42675 /* KryptomatorGeneralCryptoOperation.m */;
+		name = "ROT128KryptomatorOperation.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 252;
+		vrLoc = 0;
+	};
+	E28D46540E5F821100F00469 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E24140DB0D17C52900A42675 /* KryptomatorGeneralCryptoOperation.h */;
+		name = "KryptomatorGeneralCryptoOperation.h: 9";
+		rLen = 23;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 186;
+	};
+	E28D46550E5F821100F00469 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E24140DC0D17C52900A42675 /* KryptomatorGeneralCryptoOperation.m */;
+		name = "KryptomatorGeneralCryptoOperation.m: 57";
+		rLen = 57;
+		rLoc = 1729;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 0;
+	};
+	E28D46560E5F821100F00469 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E24140DC0D17C52900A42675 /* KryptomatorGeneralCryptoOperation.m */;
+		name = "KryptomatorGeneralCryptoOperation.m: 57";
+		rLen = 57;
+		rLoc = 1729;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 0;
+	};
+	E28D46570E5F821100F00469 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E24140DB0D17C52900A42675 /* KryptomatorGeneralCryptoOperation.h */;
+		name = "KryptomatorGeneralCryptoOperation.h: 9";
+		rLen = 23;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 186;
+	};
+	E28D46580E5F821100F00469 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E24140DC0D17C52900A42675 /* KryptomatorGeneralCryptoOperation.m */;
+		name = "KryptomatorGeneralCryptoOperation.m: 57";
+		rLen = 57;
+		rLoc = 1729;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 2351;
+	};
+	E2A8F0620D47D1FC008866A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E218251F0CA2F99E00876F15 /* ROT128KryptomatorPlugin-Info.plist */;
+		name = "ROT128KryptomatorPlugin-Info.plist: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 712;
+		vrLoc = 0;
+	};
+	E2A8F0630D47D1FC008866A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF630370AF2F00C91783 /* ROT128KryptomatorPlugin_Prefix.pch */;
+		name = "ROT128KryptomatorPlugin_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 178;
+		vrLoc = 0;
+	};
+	E2DB89580CAEC95D0026B6B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E218251F0CA2F99E00876F15 /* ROT128KryptomatorPlugin-Info.plist */;
+		name = "ROT128KryptomatorPlugin-Info.plist: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 711;
+		vrLoc = 0;
+	};
+}

@@ -1,0 +1,99 @@
+/*
+ 
+ ***BINARY***
+ For Private/non-commercial use: free
+ 
+ commercial use: request + payment
+ 
+ 
+ ***SOURCE***
+ Source may not be used for commercial use
+ 
+ may be used for non-commercial use/private use
+ source only allowed for other open source programs
+ 
+ If redistributed, this licence must remain
+ */
+
+#import "TDDropView.h"
+#import "TDObject.h"
+
+@implementation TDDropView
+
+- (id) initWithFrame:(NSRect)frameRect
+{
+	self = [super initWithFrame: frameRect];
+	
+	if (self) 
+	{
+
+		NSBundle *bundle = [NSBundle mainBundle];
+		[bundle release];
+	}
+	
+	return self;
+}
+
+- (void) dealloc
+{
+	[_fullTrashImage release];
+	[_appDraggedImage release];
+	[_trashImage release];
+	[_statusBorderImage release];
+	
+	[super dealloc];
+}
+
+- (void) drawRect:(NSRect)rect
+{
+	[super drawRect: rect];
+}
+
+#pragma mark Drag and drop
+- (NSDragOperation) draggingEntered:(id <NSDraggingInfo>)sender 
+{
+	NSLog(@"files entered into the dropview");
+	return NSDragOperationGeneric;
+}
+
+
+- (BOOL) performDragOperation:(id <NSDraggingInfo>)sender 
+{
+	NSLog(@"perform drag operation...");
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	NSPasteboard *pboard;
+    NSDragOperation sourceDragMask;	
+	
+    
+    sourceDragMask = [sender draggingSourceOperationMask];
+    pboard = [sender draggingPasteboard];
+	
+    if ( [[pboard types] containsObject:NSFilenamesPboardType] ) 
+	{
+        NSArray *droppedItems = [pboard propertyListForType:NSFilenamesPboardType];
+		NSMutableArray *filesArray = [NSMutableArray new];
+		NSString *path;
+		
+		for( path in droppedItems){
+			NSMutableDictionary *fileDictionary = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+				[path lastPathComponent], @"name", 
+				path, @"path",
+				nil];
+			[filesArray addObject:fileDictionary];
+		}
+		[[TDObject sharedKryptomatorInstance] acceptDroppedFiles:[filesArray copy]];
+		[pool release];
+		return YES;
+	}
+	return NO;
+	[pool release];
+	
+
+}
+
+- (void) draggingExited:(id <NSDraggingInfo>)sender
+{
+
+}
+
+@end

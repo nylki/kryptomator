@@ -1,0 +1,1 @@
+ const unsigned char KryptomatorVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Kryptomator  PROJECT:Kryptomator_dragndrop-" "\n"; const double KryptomatorVersionNumber __attribute__ ((used)) = (double)0.;

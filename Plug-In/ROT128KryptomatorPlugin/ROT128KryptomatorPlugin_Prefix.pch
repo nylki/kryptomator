@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ROT128KryptomatorPlugin' target in the 'ROT128KryptomatorPlugin' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

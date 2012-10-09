@@ -1,0 +1,791 @@
+TKryptomator
+v7
+r0
+t280075905.446935
+cCheck dependencies
+cProcessInfoPlistFile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Info.plist Info.plist
+cStripNIB /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/MainMenu.nib
+cCopyStringsFile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cStripNIB /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/PreferencesWindow.nib
+cCpResource "build/Debug/Kryptomator.app/Contents/Resources/Licence Idea" "Licence Idea"
+cCpResource build/Debug/Kryptomator.app/Contents/Resources/bundleIcon.png Images/bundleIcon.png
+cStripNIB /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/AboutWindow.nib
+cProcessPCH /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch.gch Kryptomator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-aroldssydjbdrhcyeuivqrvntgjx/Kryptomator_Prefix.pch.gch Kryptomator_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/main.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBPluginVerifier.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBKryptomator.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDObject.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBDropView.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBPreferencesWindowController.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ExpandedPathToLargeIconTransformer.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToLargeIconTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ExpandedPathToSmallIconTransformer.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToSmallIconTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDPathToNameTransformer.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDPathToNameTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDScreenFlasher.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDScreenFlasher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ROT128Cipher.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/arc4.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/arc4.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ARC4Cipher.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBAboutWindowController.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBAboutWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/AES128Cipher.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/MacOS/Kryptomator normal i386
+cTouch /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004A67D2A800000000000017ED
+t1248318120
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A600B8400000000000013E6
+t1247808388
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/aes.h
+c000000004A58360C0000000000001632
+t1247294988
+s5682
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/sha.h
+c000000004A58360D0000000000001CDE
+t1247294989
+s7390
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/AboutWindow.nib
+c0000000047BC6FA90000000000000088
+t1203531689
+s136
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/InfoPlist.strings
+c00000000479A6FD600000000000000CA
+t1201303510
+s202
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/MainMenu.nib
+c0000000047BF274000000000000000AA
+t1203709760
+s170
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/PreferencesWindow.nib
+c0000000047D2C57500000000000000AA
+t1204995445
+s170
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToLargeIconTransformer.h
+c00000000479A6FD6000000000000008A
+t1201303510
+s138
+i<Foundation/Foundation.h>
+i<AppKit/AppKit.h>
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToLargeIconTransformer.m
+c00000000479A6FD6000000000000020F
+t1201303510
+s527
+i"ExpandedPathToLargeIconTransformer.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToSmallIconTransformer.h
+c00000000479A6FD6000000000000008A
+t1201303510
+s138
+i<Foundation/Foundation.h>
+i<AppKit/AppKit.h>
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToSmallIconTransformer.m
+c00000000479A6FD60000000000000206
+t1201303510
+s518
+i"ExpandedPathToSmallIconTransformer.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/Images/bundleIcon.png
+c00000000479A6FD60000000000002F2F
+t1201303510
+s12079
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/Kryptomator_Prefix.pch
+c00000000479A6FD60000000000000099
+t1201303510
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/Licence Idea
+c00000000479A6FD60000000000000576
+t1201303510
+s1398
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBAboutWindowController.h
+c0000000047BC6A0C00000000000000FA
+t1203530252
+s250
+i<Cocoa/Cocoa.h>
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBAboutWindowController.m
+c0000000047BC716F0000000000000322
+t1203532143
+s802
+i"TBAboutWindowController.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.h
+c0000000047B9E1F2000000000000040D
+t1203364338
+s1037
+i<Cocoa/Cocoa.h>
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m
+c000000004B0166DC0000000000001F68
+t1258383068
+s8040
+i"TBDropView.h"
+i"TDObject.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h
+c0000000047C8292A0000000000000CDB
+t1204300074
+s3291
+i<Cocoa/Cocoa.h>
+i"TBDropView.h"
+i"TBPluginVerifier.h"
+i"TBPreferencesWindowController.h"
+i"TBAboutWindowController.h"
+i"TDScreenFlasher.h"
+i"ROT128Cipher.h"
+i"ARC4Cipher.h"
+i"AES128Cipher.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m
+c00000000489F1F3B0000000000003418
+t1218387771
+s13336
+i"TBKryptomator.h"
+i"TDObject.h"
+i"KryptomatorCipherProtocol.h"
+i"ExpandedPathToLargeIconTransformer.h"
+i"ExpandedPathToSmallIconTransformer.h"
+i"TDPathToNameTransformer.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.h
+c0000000047B4988500000000000001FB
+t1203017861
+s507
+i<Cocoa/Cocoa.h>
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m
+c0000000047B498700000000000000A73
+t1203017840
+s2675
+i"TBPluginVerifier.h"
+i"KryptomatorCipherProtocol.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h
+c00000000479A6FD600000000000004E7
+t1201303510
+s1255
+i<Cocoa/Cocoa.h>
+i"TBPluginVerifier.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m
+c00000000479A6FD60000000000001657
+t1201303510
+s5719
+i"TBPreferencesWindowController.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h
+c00000000479A6FD600000000000000CF
+t1201303510
+s207
+i<Cocoa/Cocoa.h>
+i"TBKryptomator.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m
+c00000000479A6FD60000000000000245
+t1201303510
+s581
+i"TDObject.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDPathToNameTransformer.h
+c00000000479A6FD6000000000000018D
+t1201303510
+s397
+i<Foundation/Foundation.h>
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDPathToNameTransformer.m
+c00000000479A6FD6000000000000028C
+t1201303510
+s652
+i"TDPathToNameTransformer.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDScreenFlasher.h
+c00000000479A6FD600000000000004B7
+t1201303510
+s1207
+i<Cocoa/Cocoa.h>
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDScreenFlasher.m
+c0000000047A44014000000000000086F
+t1201946644
+s2159
+i"TDScreenFlasher.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app
+t1258383105
+s102
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Info.plist
+t1258383091
+s816
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/MacOS/Kryptomator
+t1258383105
+s80732
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/PkgInfo
+t1258383091
+s8
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/English.lproj/AboutWindow.nib
+t1258383092
+s6020
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1258383091
+s202
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/English.lproj/MainMenu.nib
+t1258383092
+s52697
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/English.lproj/PreferencesWindow.nib
+t1258383092
+s41020
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/Licence Idea
+t1203708426
+s1398
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/bundleIcon.png
+t1203708426
+s12079
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/AES128Cipher.o
+t1258383104
+s20672
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ARC4Cipher.o
+t1258383104
+s20344
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ExpandedPathToLargeIconTransformer.o
+t1258383103
+s9876
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ExpandedPathToSmallIconTransformer.o
+t1258383103
+s9812
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/Kryptomator.LinkFileList
+c0000000047C82B8E0000000000000BFB
+t1204300686
+s3067
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ROT128Cipher.o
+t1258383104
+s19704
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBAboutWindowController.o
+t1258383104
+s16196
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBDropView.o
+t1258383103
+s34892
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBKryptomator.o
+t1258383103
+s68504
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBPluginVerifier.o
+t1258383102
+s23332
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBPreferencesWindowController.o
+t1258383103
+s42820
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDObject.o
+t1258383103
+s23548
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDPathToNameTransformer.o
+t1258383104
+s7312
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDScreenFlasher.o
+t1258383104
+s15924
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/arc4.o
+t1258383104
+s3084
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/main.o
+t1258383102
+s4992
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.h
+c0000000047BF3D180000000000000495
+t1203715352
+s1173
+i<Cocoa/Cocoa.h>
+i"KryptomatorCipherProtocol.h"
+i"arc4.h"
+i"openssl/sha.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m
+c0000000047C82A450000000000000D11
+t1204300357
+s3345
+i"ARC4Cipher.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.h
+c0000000047C830830000000000000490
+t1204301955
+s1168
+i<Cocoa/Cocoa.h>
+i"KryptomatorCipherProtocol.h"
+i<openssl/aes.h>
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m
+c0000000047C830860000000000000DDD
+t1204301958
+s3549
+i"AES128Cipher.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/arc4.c
+c0000000047B70D8F00000000000007AA
+t1203178895
+s1962
+i"arc4.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/arc4.h
+c000000004644992A0000000000000645
+t1178900778
+s1605
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/KryptomatorCipherProtocol.h
+c0000000047B498DB00000000000002D5
+t1203017947
+s725
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.h
+c0000000047BF25AF00000000000004DD
+t1203709359
+s1245
+i<Cocoa/Cocoa.h>
+i"KryptomatorCipherProtocol.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m
+c0000000047BF26130000000000000EF9
+t1203709459
+s3833
+i"ROT128Cipher.h"
+
+N/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/main.m
+c00000000479A6FD600000000000000F9
+t1201303510
+s249
+i<Cocoa/Cocoa.h>
+
+N/var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-aroldssydjbdrhcyeuivqrvntgjx/Kryptomator_Prefix.pch.gch
+t1258383094
+s2191728
+
+N/var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch.gch
+t1258383101
+s56715024
+
+NInfo.plist
+c0000000047BF2121000000000000033B
+t1203708193
+s827
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies280075891#280075891#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/AES128Cipher.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075904.743486
+e280075905.008018
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/AES128Cipher.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m: In function '-[AES128Cipher initCryptoOperationOfType:withSourcePath:destinationPath:password:]':
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:44: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:46: warning: pointer targets in passing argument 1 of 'initWithCString:encoding:' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:47: warning: passing argument 3 of 'AES_set_encrypt_key' from incompatible pointer type
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m: In function '-[AES128Cipher main]':
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:91: warning: passing argument 4 of 'AES_cbc_encrypt' from incompatible pointer type
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:91: warning: pointer targets in passing argument 5 of 'AES_cbc_encrypt' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:98: warning: passing argument 4 of 'AES_cbc_encrypt' from incompatible pointer type
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:98: warning: pointer targets in passing argument 5 of 'AES_cbc_encrypt' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:102: warning: pointer targets in passing argument 1 of '__builtin___strcpy_chk' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:102: warning: pointer targets in passing argument 1 of '__inline_strcpy_chk' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m: At top level:
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:138: warning: incomplete implementation of class 'AES128Cipher'
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:138: warning: method definition for '-initCryptoOperationOfKind:withSourcePath:destinationPath:password:' not found
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:138: warning: class 'AES128Cipher' does not fully implement the 'KryptomatorCipherProtocol' protocol
+lSLF07#2@144"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m280075904#280075905#0(3315"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m: In function '-[AES128Cipher initCryptoOperationOfType:withSourcePath:destinationPath:password:]':/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:44: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:46: warning: pointer targets in passing argument 1 of 'initWithCString:encoding:' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:47: warning: passing argument 3 of 'AES_set_encrypt_key' from incompatible pointer type/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m: In function '-[AES128Cipher main]':/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:91: warning: passing argument 4 of 'AES_cbc_encrypt' from incompatible pointer type/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:91: warning: pointer targets in passing argument 5 of 'AES_cbc_encrypt' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:98: warning: passing argument 4 of 'AES_cbc_encrypt' from incompatible pointer type/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:98: warning: pointer targets in passing argument 5 of 'AES_cbc_encrypt' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:102: warning: pointer targets in passing argument 1 of '__builtin___strcpy_chk' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:102: warning: pointer targets in passing argument 1 of '__inline_strcpy_chk' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m: At top level:/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:138: warning: incomplete implementation of class 'AES128Cipher'/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:138: warning: method definition for '-initCryptoOperationOfKind:withSourcePath:destinationPath:password:' not found/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m:138: warning: class 'AES128Cipher' does not fully implement the 'KryptomatorCipherProtocol' protocol13(22@70"Pointer targets in passing argument 1 of 'strlen' differ in signedness280075904#236#221#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#44#0#44#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@89"Pointer targets in passing argument 1 of 'initWithCString:encoding:' differ in signedness280075904#457#240#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#46#0#46#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@74"Passing argument 3 of 'AES_set_encrypt_key' from incompatible pointer type280075904#697#225#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#47#0#47#0#56"passing argument * of '*' from incompatible pointer type0(22@70"Passing argument 4 of 'AES_cbc_encrypt' from incompatible pointer type280075904#1096#221#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#91#0#91#0#56"passing argument * of '*' from incompatible pointer type0(22@79"Pointer targets in passing argument 5 of 'AES_cbc_encrypt' differ in signedness280075904#1317#230#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#91#0#91#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@70"Passing argument 4 of 'AES_cbc_encrypt' from incompatible pointer type280075904#1547#221#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#98#0#98#0#56"passing argument * of '*' from incompatible pointer type0(22@79"Pointer targets in passing argument 5 of 'AES_cbc_encrypt' differ in signedness280075904#1768#230#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#98#0#98#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@86"Pointer targets in passing argument 1 of '__builtin___strcpy_chk' differ in signedness280075904#1998#238#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#102#0#102#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@83"Pointer targets in passing argument 1 of '__inline_strcpy_chk' differ in signedness280075904#2236#235#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#102#0#102#0#65"pointer targets in passing argument * of '*' differ in signedness0(23@13"At top level:280075904#2471#152#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#0#0#0#0#0"0(22@49"Incomplete implementation of class 'AES128Cipher'280075904#2623#201#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#138#0#138#0#38"incomplete implementation of class '*'0(22@101"Method definition for '-initCryptoOperationOfKind:withSourcePath:destinationPath:password:' not found280075904#2824#253#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#138#0#138#0#35"method definition for '*' not found0(22@86"Class 'AES128Cipher' does not fully implement the 'KryptomatorCipherProtocol' protocol280075904#3077#238#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m225994758#138#0#138#0#51"class '*' does not fully implement the '*' protocol0(0#0#136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m4300882208#1743"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/aes128/AES128Cipher.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/AES128Cipher.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ARC4Cipher.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075904.458932
+e280075904.783932
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ARC4Cipher.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m: In function '-[ARC4Cipher initCryptoOperationOfType:withSourcePath:destinationPath:password:]':
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:44: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:46: warning: pointer targets in passing argument 1 of 'initWithCString:encoding:' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m: In function '-[ARC4Cipher main]':
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:96: warning: pointer targets in passing argument 1 of '__builtin___strcpy_chk' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:96: warning: pointer targets in passing argument 1 of '__inline_strcpy_chk' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m: At top level:
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:132: warning: incomplete implementation of class 'ARC4Cipher'
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:132: warning: method definition for '-initCryptoOperationOfKind:withSourcePath:destinationPath:password:' not found
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:132: warning: class 'ARC4Cipher' does not fully implement the 'KryptomatorCipherProtocol' protocol
+lSLF07#2@135"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m280075904#280075904#0(2088"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m: In function '-[ARC4Cipher initCryptoOperationOfType:withSourcePath:destinationPath:password:]':/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:44: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:46: warning: pointer targets in passing argument 1 of 'initWithCString:encoding:' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m: In function '-[ARC4Cipher main]':/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:96: warning: pointer targets in passing argument 1 of '__builtin___strcpy_chk' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:96: warning: pointer targets in passing argument 1 of '__inline_strcpy_chk' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m: At top level:/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:132: warning: incomplete implementation of class 'ARC4Cipher'/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:132: warning: method definition for '-initCryptoOperationOfKind:withSourcePath:destinationPath:password:' not found/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m:132: warning: class 'ARC4Cipher' does not fully implement the 'KryptomatorCipherProtocol' protocol8(22@70"Pointer targets in passing argument 1 of 'strlen' differ in signedness280075904#225#212#0(6@127"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m225993157#44#0#44#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@89"Pointer targets in passing argument 1 of 'initWithCString:encoding:' differ in signedness280075904#437#231#0(6@127"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m225993157#46#0#46#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@86"Pointer targets in passing argument 1 of '__builtin___strcpy_chk' differ in signedness280075904#831#228#0(6@127"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m225993157#96#0#96#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@83"Pointer targets in passing argument 1 of '__inline_strcpy_chk' differ in signedness280075904#1059#225#0(6@127"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m225993157#96#0#96#0#65"pointer targets in passing argument * of '*' differ in signedness0(23@13"At top level:280075904#1284#143#0(6@127"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m225993157#0#0#0#0#0"0(22@47"Incomplete implementation of class 'ARC4Cipher'280075904#1427#190#0(6@127"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m225993157#132#0#132#0#38"incomplete implementation of class '*'0(22@101"Method definition for '-initCryptoOperationOfKind:withSourcePath:destinationPath:password:' not found280075904#1617#244#0(6@127"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m225993157#132#0#132#0#35"method definition for '*' not found0(22@84"Class 'ARC4Cipher' does not fully implement the 'KryptomatorCipherProtocol' protocol280075904#1861#227#0(6@127"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m225993157#132#0#132#0#51"class '*' does not fully implement the '*' protocol0(0#0#127"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m4300882208#1732"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/ARC4Cipher.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ARC4Cipher.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ExpandedPathToLargeIconTransformer.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToLargeIconTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075903.468348
+e280075903.704045
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ExpandedPathToLargeIconTransformer.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToLargeIconTransformer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@151"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToLargeIconTransformer.m280075903#280075903#0(0"0(0#0#143"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToLargeIconTransformer.m4300882208#1772"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToLargeIconTransformer.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ExpandedPathToLargeIconTransformer.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ExpandedPathToSmallIconTransformer.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToSmallIconTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075903.704173
+e280075904.000337
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ExpandedPathToSmallIconTransformer.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToSmallIconTransformer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@151"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToSmallIconTransformer.m280075903#280075904#0(0"0(0#0#143"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToSmallIconTransformer.m4300882208#1772"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ExpandedPathToSmallIconTransformer.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ExpandedPathToSmallIconTransformer.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ROT128Cipher.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075904.048524
+e280075904.458812
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ROT128Cipher.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m: In function '-[ROT128Cipher main]':
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:112: warning: pointer targets in passing argument 1 of '__builtin___strcpy_chk' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:112: warning: pointer targets in passing argument 1 of '__inline_strcpy_chk' differ in signedness
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:70: warning: unused variable 'newBytesRead'
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m: At top level:
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:147: warning: incomplete implementation of class 'ROT128Cipher'
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:147: warning: method definition for '-initCryptoOperationOfKind:withSourcePath:destinationPath:password:' not found
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:147: warning: class 'ROT128Cipher' does not fully implement the 'KryptomatorCipherProtocol' protocol
+lSLF07#2@144"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m280075904#280075904#0(1672"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m: In function '-[ROT128Cipher main]':/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:112: warning: pointer targets in passing argument 1 of '__builtin___strcpy_chk' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:112: warning: pointer targets in passing argument 1 of '__inline_strcpy_chk' differ in signedness/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:70: warning: unused variable 'newBytesRead'/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m: At top level:/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:147: warning: incomplete implementation of class 'ROT128Cipher'/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:147: warning: method definition for '-initCryptoOperationOfKind:withSourcePath:destinationPath:password:' not found/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:147: warning: class 'ROT128Cipher' does not fully implement the 'KryptomatorCipherProtocol' protocol7(22@86"Pointer targets in passing argument 1 of '__builtin___strcpy_chk' differ in signedness280075904#174#238#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m225402259#112#0#112#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@83"Pointer targets in passing argument 1 of '__inline_strcpy_chk' differ in signedness280075904#412#235#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m225402259#112#0#112#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@30"Unused variable 'newBytesRead'280075904#647#181#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m225402259#70#0#70#0#19"unused variable '*'0(23@13"At top level:280075904#828#152#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m225402259#0#0#0#0#0"0(22@49"Incomplete implementation of class 'ROT128Cipher'280075904#980#201#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m225402259#147#0#147#0#38"incomplete implementation of class '*'0(22@101"Method definition for '-initCryptoOperationOfKind:withSourcePath:destinationPath:password:' not found280075904#1181#253#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m225402259#147#0#147#0#35"method definition for '*' not found0(22@86"Class 'ROT128Cipher' does not fully implement the 'KryptomatorCipherProtocol' protocol280075904#1434#238#0(6@136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m225402259#147#0#147#0#51"class '*' does not fully implement the '*' protocol0(0#0#136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m4300882208#1743"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/ROT128Cipher.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBAboutWindowController.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBAboutWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075904.514775
+e280075904.743359
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBAboutWindowController.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBAboutWindowController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@140"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBAboutWindowController.m280075904#280075904#0(0"0(0#0#132"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBAboutWindowController.m4300882208#1750"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBAboutWindowController.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBAboutWindowController.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBDropView.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075903.076241
+e280075903.468232
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBDropView.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:22,
+o                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h:3,
+o                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m:19:
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: assign attribute (default) not appropriate for non-gc object property 'availableSounds'
+oIn file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h:3,
+o                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m:19:
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: assign attribute (default) not appropriate for non-gc object property 'operationQueue'
+lSLF07#2@127"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m280075903#280075903#0(1634"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:22,                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h:3,                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m:19:/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: assign attribute (default) not appropriate for non-gc object property 'availableSounds'In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h:3,                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m:19:/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: assign attribute (default) not appropriate for non-gc object property 'operationQueue'4(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed280075903#438#230#4(7@141"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m280075903#18446744073709551615#0#0(6@119"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m280075868#19#0#19#0#0"0(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h280075903#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h222996310#3#0#3#0#0"0(7@144"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075903#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#22#0#22#0#0"0(13@219"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h280075903#18446744073709551615#0#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(22@87"Assign attribute (default) not appropriate for non-gc object property 'availableSounds'280075903#668#240#4(7@141"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m280075903#18446744073709551615#0#0(6@119"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m280075868#19#0#19#0#0"0(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h280075903#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h222996310#3#0#3#0#0"0(7@144"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075903#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#22#0#22#0#0"0(13@229"Assign attribute (default) not appropriate for non-gc object property 'availableSounds' in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h280075903#18446744073709551615#0#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed280075903#1197#214#3(7@141"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m280075903#18446744073709551615#0#0(6@119"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m280075868#19#0#19#0#0"0(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h280075903#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h222996310#3#0#3#0#0"0(13@203"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075903#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(22@86"Assign attribute (default) not appropriate for non-gc object property 'operationQueue'280075903#1411#223#3(7@141"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m280075903#18446744073709551615#0#0(6@119"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m280075868#19#0#19#0#0"0(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h280075903#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h222996310#3#0#3#0#0"0(13@212"Assign attribute (default) not appropriate for non-gc object property 'operationQueue' in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075903#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(0#0#119"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m4300882208#1724"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBDropView.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBDropView.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBKryptomator.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075902.750768
+e280075903.383264
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBKryptomator.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:22,
+o                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:18:
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: assign attribute (default) not appropriate for non-gc object property 'availableSounds'
+oIn file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:18:
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: assign attribute (default) not appropriate for non-gc object property 'operationQueue'
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m: In function '-[TBKryptomator showAboutWindow:]':
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:421: warning: 'TBAboutWindowController' may not respond to '+aboutWindowController'
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:421: warning: (Messages without a matching method signature
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:421: warning: will be assumed to return 'id' and accept
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:421: warning: '...' as arguments.)
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m: At top level:
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:424: warning: incomplete implementation of class 'TBKryptomator'
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:424: warning: method definition for '-endInstallPluginsSheet:' not found
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:424: warning: method definition for '-cancelInstallPluginsSheet:' not found
+lSLF07#2@130"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m280075902#280075903#0(2975"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:22,                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:18:/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: assign attribute (default) not appropriate for non-gc object property 'availableSounds'In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:18:/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: assign attribute (default) not appropriate for non-gc object property 'operationQueue'/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m: In function '-[TBKryptomator showAboutWindow:]':/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:421: warning: 'TBAboutWindowController' may not respond to '+aboutWindowController'/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:421: warning: (Messages without a matching method signature/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:421: warning: will be assumed to return 'id' and accept/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:421: warning: '...' as arguments.)/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m: At top level:/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:424: warning: incomplete implementation of class 'TBKryptomator'/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:424: warning: method definition for '-endInstallPluginsSheet:' not found/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m:424: warning: method definition for '-cancelInstallPluginsSheet:' not found10(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed280075902#298#230#3(7@144"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m240080571#18#0#18#0#0"0(7@144"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#22#0#22#0#0"0(13@219"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h280075902#18446744073709551615#0#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(22@87"Assign attribute (default) not appropriate for non-gc object property 'availableSounds'280075902#528#240#3(7@144"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m240080571#18#0#18#0#0"0(7@144"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#22#0#22#0#0"0(13@229"Assign attribute (default) not appropriate for non-gc object property 'availableSounds' in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h280075902#18446744073709551615#0#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed280075902#917#214#2(7@144"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m240080571#18#0#18#0#0"0(13@203"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(22@86"Assign attribute (default) not appropriate for non-gc object property 'operationQueue'280075902#1131#223#2(7@144"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m240080571#18#0#18#0#0"0(13@212"Assign attribute (default) not appropriate for non-gc object property 'operationQueue' in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(22@69"'TBAboutWindowController' may not respond to '+aboutWindowController'280075903#1527#207#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m240080571#421#0#421#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)280075903#1734#183#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m240080571#421#0#421#0#0"0(23@13"At top level:280075903#2254#138#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m240080571#0#0#0#0#0"0(22@50"Incomplete implementation of class 'TBKryptomator'280075903#2392#188#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m240080571#424#0#424#0#38"incomplete implementation of class '*'0(22@58"Method definition for '-endInstallPluginsSheet:' not found280075903#2580#196#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m240080571#424#0#424#0#35"method definition for '*' not found0(22@61"Method definition for '-cancelInstallPluginsSheet:' not found280075903#2776#199#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m240080571#424#0#424#0#35"method definition for '*' not found0(0#0#122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m4300882208#1730"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBKryptomator.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBPluginVerifier.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075901.846748
+e280075902.854718
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBPluginVerifier.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m: In function '-[TBPluginVerifier dictionaryForPluginAtPath:]':
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m:29: warning: unused variable 'fm'
+lSLF07#2@133"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m280075901#280075902#0(349"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m: In function '-[TBPluginVerifier dictionaryForPluginAtPath:]':/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m:29: warning: unused variable 'fm'1(22@20"Unused variable 'fm'280075902#189#160#0(6@125"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m224710640#29#0#29#0#19"unused variable '*'0(0#0#125"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m4300882208#1736"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPluginVerifier.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBPluginVerifier.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBPreferencesWindowController.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075903.383751
+e280075903.747835
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBPreferencesWindowController.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m:17:
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: assign attribute (default) not appropriate for non-gc object property 'availableSounds'
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m: In function '-[TBPreferencesWindowController initWithWindowNibName:]':
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m:56: warning: 'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m: In function '-[TBPreferencesWindowController addPluginsPanelDidEnd:returnCode:contextInfo:]':
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m:134: warning: 'copyPath:toPath:handler:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:172)
+lSLF07#2@146"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m280075903#280075903#0(1716"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m:17:/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: assign attribute (default) not appropriate for non-gc object property 'availableSounds'/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m: In function '-[TBPreferencesWindowController initWithWindowNibName:]':/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m:56: warning: 'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m: In function '-[TBPreferencesWindowController addPluginsPanelDidEnd:returnCode:contextInfo:]':/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m:134: warning: 'copyPath:toPath:handler:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:172)4(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed280075903#165#230#2(7@160"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m280075903#18446744073709551615#0#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m222996310#17#0#17#0#0"0(13@219"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h280075903#18446744073709551615#0#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(22@87"Assign attribute (default) not appropriate for non-gc object property 'availableSounds'280075903#395#240#2(7@160"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m280075903#18446744073709551615#0#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m222996310#17#0#17#0#0"0(13@229"Assign attribute (default) not appropriate for non-gc object property 'availableSounds' in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h280075903#18446744073709551615#0#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(22@169"'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)280075903#846#322#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m222996310#56#0#56#0#33"'*' is deprecated (declared at *)0(22@160"'copyPath:toPath:handler:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:172)280075903#1402#314#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m222996310#134#0#134#0#33"'*' is deprecated (declared at *)0(0#0#138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m4300882208#1762"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TBPreferencesWindowController.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDObject.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075902.854834
+e280075903.076119
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDObject.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:22,
+o                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h:3,
+o                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m:3:
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: assign attribute (default) not appropriate for non-gc object property 'availableSounds'
+oIn file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h:3,
+o                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m:3:
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: assign attribute (default) not appropriate for non-gc object property 'operationQueue'
+lSLF07#2@125"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m280075902#280075903#0(1628"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:22,                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h:3,                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m:3:/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h:44: warning: assign attribute (default) not appropriate for non-gc object property 'availableSounds'In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h:3,                 from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m:3:/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h:87: warning: assign attribute (default) not appropriate for non-gc object property 'operationQueue'4(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed280075902#435#230#4(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m280075902#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m222996310#3#0#3#0#0"0(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h280075902#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h222996310#3#0#3#0#0"0(7@144"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#22#0#22#0#0"0(13@219"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h280075902#18446744073709551615#0#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(22@87"Assign attribute (default) not appropriate for non-gc object property 'availableSounds'280075902#665#240#4(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m280075902#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m222996310#3#0#3#0#0"0(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h280075902#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h222996310#3#0#3#0#0"0(7@144"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#22#0#22#0#0"0(13@229"Assign attribute (default) not appropriate for non-gc object property 'availableSounds' in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h280075902#18446744073709551615#0#0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(6@138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBPreferencesWindowController.h222996310#44#0#44#0#0"0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed280075902#1191#214#3(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m280075902#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m222996310#3#0#3#0#0"0(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h280075902#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h222996310#3#0#3#0#0"0(13@203"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(22@86"Assign attribute (default) not appropriate for non-gc object property 'operationQueue'280075902#1405#223#3(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m280075902#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m222996310#3#0#3#0#0"0(7@139"In file included from /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h280075902#18446744073709551615#0#0(6@117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.h222996310#3#0#3#0#0"0(13@212"Assign attribute (default) not appropriate for non-gc object property 'operationQueue' in /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h280075902#18446744073709551615#0#0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(6@122"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TBKryptomator.h225992874#87#0#87#0#0"0(0#0#117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m4300882208#1720"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDObject.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDObject.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDPathToNameTransformer.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDPathToNameTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075903.747956
+e280075904.048398
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDPathToNameTransformer.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDPathToNameTransformer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@140"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDPathToNameTransformer.m280075903#280075904#0(0"0(0#0#132"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDPathToNameTransformer.m4300882208#1750"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDPathToNameTransformer.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDPathToNameTransformer.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDScreenFlasher.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDScreenFlasher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075904.000468
+e280075904.285994
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDScreenFlasher.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDScreenFlasher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@132"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDScreenFlasher.m280075904#280075904#0(0"0(0#0#124"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDScreenFlasher.m4300882208#1734"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/TDScreenFlasher.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/TDScreenFlasher.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/arc4.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/arc4.c normal i386 c com.apple.compilers.gcc.4_2
+s280075904.286106
+e280075904.514648
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/arc4.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/arc4.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@129"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/arc4.c280075904#280075904#0(0"0(0#0#121"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/arc4.c4300882208#1710"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-aroldssydjbdrhcyeuivqrvntgjx/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/arc4.c -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/arc4.o0#
+
+CCompileC build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/main.o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075901.845467
+e280075902.750640
+r1
+xCompileC
+xbuild/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/main.o
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/main.m280075901#280075902#0(0"0(0#0#113"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/main.m4300882208#1712"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -include /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/main.m -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/main.o0#
+
+CCopyStringsFile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s280075891.212669
+e280075891.921646
+r1
+xCopyStringsFile
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings280075891#280075891#0(0"0(0#0#138"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/InfoPlist.strings4300882208#506"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/English.lproj0#
+
+CCpResource "build/Debug/Kryptomator.app/Contents/Resources/Licence Idea" "Licence Idea"
+r0
+
+CCpResource build/Debug/Kryptomator.app/Contents/Resources/bundleIcon.png Images/bundleIcon.png
+r0
+
+CLd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/MacOS/Kryptomator normal i386
+s280075905.008231
+e280075905.430598
+r1
+xLd
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/MacOS/Kryptomator
+xnormal
+xi386
+lSLF07#2@166"Link /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/MacOS/Kryptomator280075905#280075905#0(0"0(0#0#0"4300882208#917"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -filelist /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Objects-normal/i386/Kryptomator.LinkFileList -mmacosx-version-min=10.6 -lcrypto -framework Cocoa -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/MacOS/Kryptomator0#
+
+CProcessInfoPlistFile /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Info.plist Info.plist
+s280075891.152617
+e280075891.192981
+r1
+xProcessInfoPlistFile
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist280075891#280075891#0(0"0(0#0#117"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/Info.plist4300882208#514"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    builtin-infoPlistUtility Info.plist -genpkginfo /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-aroldssydjbdrhcyeuivqrvntgjx/Kryptomator_Prefix.pch.gch Kryptomator_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s280075892.753886
+e280075894.615088
+r1
+xProcessPCH
+x/var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-aroldssydjbdrhcyeuivqrvntgjx/Kryptomator_Prefix.pch.gch
+xKryptomator_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Kryptomator_Prefix.pch280075892#280075894#0(0"0(0#0#129"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/Kryptomator_Prefix.pch4300882208#1528"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/Kryptomator_Prefix.pch -o /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-aroldssydjbdrhcyeuivqrvntgjx/Kryptomator_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch.gch Kryptomator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s280075892.748796
+e280075901.845227
+r1
+xProcessPCH
+x/var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch.gch
+xKryptomator_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Kryptomator_Prefix.pch280075892#280075901#0(0"0(0#0#129"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/Kryptomator_Prefix.pch4300882208#1538"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wsign-compare -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/Kryptomator.hmap -F/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/include -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources/i386 -I/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Kryptomator_dragndrop.build/Debug/Kryptomator.build/DerivedSources -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/Kryptomator_Prefix.pch -o /var/folders/90/90woZnJkE4C7+Teh+glzmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kryptomator_Prefix-grxqkbzjpvlexfchagtjtfgizhac/Kryptomator_Prefix.pch.gch0#
+
+CStripNIB /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/AboutWindow.nib
+s280075892.565667
+e280075892.748494
+r1
+xStripNIB
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/AboutWindow.nib
+lSLF07#2@38"StripNIB English.lproj/AboutWindow.nib280075892#280075892#0(0"0(0#0#136"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/AboutWindow.nib4300882208#509"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    /Developer/usr/bin/ibtool --strip /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/English.lproj/AboutWindow.nib --output-format human-readable-text /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/AboutWindow.nib0#
+
+CStripNIB /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/MainMenu.nib
+s280075891.193094
+e280075892.565399
+r1
+xStripNIB
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib280075891#280075892#0(0"0(0#0#133"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/MainMenu.nib4300882208#503"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    /Developer/usr/bin/ibtool --strip /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/MainMenu.nib0#
+
+CStripNIB /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/PreferencesWindow.nib
+s280075891.921753
+e280075892.569912
+r1
+xStripNIB
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/PreferencesWindow.nib
+lSLF07#2@44"StripNIB English.lproj/PreferencesWindow.nib280075891#280075892#0(0"0(0#0#142"/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/PreferencesWindow.nib4300882208#521"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    /Developer/usr/bin/ibtool --strip /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app/Contents/Resources/English.lproj/PreferencesWindow.nib --output-format human-readable-text /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/English.lproj/PreferencesWindow.nib0#
+
+CTouch /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app
+s280075905.430713
+e280075905.446874
+r1
+xTouch
+x/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app
+lSLF07#2@140"Touch /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app280075905#280075905#0(0"0(0#0#0"4300882208#271"    cd /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop    /usr/bin/touch -c /Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/build/Debug/Kryptomator.app0#
+

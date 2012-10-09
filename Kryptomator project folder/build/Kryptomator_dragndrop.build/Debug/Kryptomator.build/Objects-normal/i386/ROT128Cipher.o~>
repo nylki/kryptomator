@@ -1,0 +1,9 @@
+/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m: In function '-[ROT128Cipher main]':
+/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:112: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:70: warning: unused variable 'newBytesRead'
+/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m: At top level:
+/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:147: warning: incomplete implementation of class 'ROT128Cipher'
+/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:147: warning: method definition for '-initCryptoOperationOfKind:withSourcePath:destinationPath:password:sender:' not found
+/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:147: warning: incomplete implementation of class 'ROT128Cipher'
+/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:147: warning: method definition for '-initCryptoOperationOfKind:withSourcePath:destinationPath:password:' not found
+/Users/tom/Documents/Programming-Projekte/XCode-Projekte/kryptomator-folder/Kryptomator_improved_dragndrop/ciphers/rot128/ROT128Cipher.m:147: warning: class 'ROT128Cipher' does not fully implement the 'KryptomatorCipherProtocol' protocol

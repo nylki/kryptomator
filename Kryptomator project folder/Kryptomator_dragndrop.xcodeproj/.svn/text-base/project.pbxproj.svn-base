@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E21D639E0D10496300825033 /* PreferencesWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = E21D639C0D10496300825033 /* PreferencesWindow.nib */; };
+		E27C22E80D0EA4540077F1D5 /* TBPluginVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E27C22DF0D0EA4540077F1D5 /* TBPluginVerifier.m */; };
+		E27C22E90D0EA4540077F1D5 /* TBKryptomator.m in Sources */ = {isa = PBXBuildFile; fileRef = E27C22E10D0EA4540077F1D5 /* TBKryptomator.m */; };
+		E27C22EA0D0EA4540077F1D5 /* TDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E27C22E30D0EA4540077F1D5 /* TDObject.m */; };
+		E27C22EB0D0EA4540077F1D5 /* TDDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27C22E50D0EA4540077F1D5 /* TDDropView.m */; };
+		E27C22EC0D0EA4540077F1D5 /* TBPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27C22E60D0EA4540077F1D5 /* TBPreferencesWindowController.m */; };
+		E27C22F40D0EA45A0077F1D5 /* ExpandedPathToLargeIconTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E27C22EF0D0EA45A0077F1D5 /* ExpandedPathToLargeIconTransformer.m */; };
+		E27C22F50D0EA45A0077F1D5 /* ExpandedPathToSmallIconTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E27C22F10D0EA45A0077F1D5 /* ExpandedPathToSmallIconTransformer.m */; };
+		E27C22F60D0EA45A0077F1D5 /* TDPathToNameTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E27C22F30D0EA45A0077F1D5 /* TDPathToNameTransformer.m */; };
+		E28FE54E0D38E2EA008EC940 /* Licence Idea in Resources */ = {isa = PBXBuildFile; fileRef = E28FE54D0D38E2EA008EC940 /* Licence Idea */; };
+		E2A8F00D0D47CCE9008866A3 /* TDScreenFlasher.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A8F00C0D47CCE9008866A3 /* TDScreenFlasher.m */; };
+		E2A8F0820D47DE18008866A3 /* bundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A8F0810D47DE18008866A3 /* bundleIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Kryptomator_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kryptomator_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Kryptomator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kryptomator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21D639D0D10496300825033 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PreferencesWindow.nib; sourceTree = "<group>"; };
+		E27C22DE0D0EA4540077F1D5 /* TBPluginVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPluginVerifier.h; sourceTree = "<group>"; };
+		E27C22DF0D0EA4540077F1D5 /* TBPluginVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPluginVerifier.m; sourceTree = "<group>"; };
+		E27C22E00D0EA4540077F1D5 /* TBKryptomator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBKryptomator.h; sourceTree = "<group>"; };
+		E27C22E10D0EA4540077F1D5 /* TBKryptomator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBKryptomator.m; sourceTree = "<group>"; };
+		E27C22E20D0EA4540077F1D5 /* TDObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDObject.h; sourceTree = "<group>"; };
+		E27C22E30D0EA4540077F1D5 /* TDObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDObject.m; sourceTree = "<group>"; };
+		E27C22E40D0EA4540077F1D5 /* TDDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDropView.h; sourceTree = "<group>"; };
+		E27C22E50D0EA4540077F1D5 /* TDDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDropView.m; sourceTree = "<group>"; };
+		E27C22E60D0EA4540077F1D5 /* TBPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPreferencesWindowController.m; sourceTree = "<group>"; };
+		E27C22E70D0EA4540077F1D5 /* TBPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPreferencesWindowController.h; sourceTree = "<group>"; };
+		E27C22EE0D0EA45A0077F1D5 /* ExpandedPathToLargeIconTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandedPathToLargeIconTransformer.h; sourceTree = "<group>"; };
+		E27C22EF0D0EA45A0077F1D5 /* ExpandedPathToLargeIconTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandedPathToLargeIconTransformer.m; sourceTree = "<group>"; };
+		E27C22F00D0EA45A0077F1D5 /* ExpandedPathToSmallIconTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandedPathToSmallIconTransformer.h; sourceTree = "<group>"; };
+		E27C22F10D0EA45A0077F1D5 /* ExpandedPathToSmallIconTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandedPathToSmallIconTransformer.m; sourceTree = "<group>"; };
+		E27C22F20D0EA45A0077F1D5 /* TDPathToNameTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPathToNameTransformer.h; sourceTree = "<group>"; };
+		E27C22F30D0EA45A0077F1D5 /* TDPathToNameTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPathToNameTransformer.m; sourceTree = "<group>"; };
+		E27C22F70D0EA46A0077F1D5 /* CipherPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CipherPlugin.h; sourceTree = "<group>"; };
+		E28FE54D0D38E2EA008EC940 /* Licence Idea */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Licence Idea"; sourceTree = "<group>"; };
+		E2A8F00B0D47CCE9008866A3 /* TDScreenFlasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDScreenFlasher.h; sourceTree = "<group>"; };
+		E2A8F00C0D47CCE9008866A3 /* TDScreenFlasher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDScreenFlasher.m; sourceTree = "<group>"; };
+		E2A8F0810D47DE18008866A3 /* bundleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bundleIcon.png; path = Images/bundleIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8F00B0D47CCE9008866A3 /* TDScreenFlasher.h */,
+				E2A8F00C0D47CCE9008866A3 /* TDScreenFlasher.m */,
+				E27C22DE0D0EA4540077F1D5 /* TBPluginVerifier.h */,
+				E27C22DF0D0EA4540077F1D5 /* TBPluginVerifier.m */,
+				E27C22E00D0EA4540077F1D5 /* TBKryptomator.h */,
+				E27C22E10D0EA4540077F1D5 /* TBKryptomator.m */,
+				E27C22E20D0EA4540077F1D5 /* TDObject.h */,
+				E27C22E30D0EA4540077F1D5 /* TDObject.m */,
+				E27C22E40D0EA4540077F1D5 /* TDDropView.h */,
+				E27C22E50D0EA4540077F1D5 /* TDDropView.m */,
+				E27C22E60D0EA4540077F1D5 /* TBPreferencesWindowController.m */,
+				E27C22E70D0EA4540077F1D5 /* TBPreferencesWindowController.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Kryptomator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Kryptomator */ = {
+			isa = PBXGroup;
+			children = (
+				E27C22ED0D0EA45A0077F1D5 /* Transformers */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Kryptomator;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E27C22F70D0EA46A0077F1D5 /* CipherPlugin.h */,
+				32CA4F630368D1EE00C91783 /* Kryptomator_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E28FE54D0D38E2EA008EC940 /* Licence Idea */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				E21D639C0D10496300825033 /* PreferencesWindow.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				E2A8F07E0D47DDD4008866A3 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E27C22ED0D0EA45A0077F1D5 /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				E27C22EE0D0EA45A0077F1D5 /* ExpandedPathToLargeIconTransformer.h */,
+				E27C22EF0D0EA45A0077F1D5 /* ExpandedPathToLargeIconTransformer.m */,
+				E27C22F00D0EA45A0077F1D5 /* ExpandedPathToSmallIconTransformer.h */,
+				E27C22F10D0EA45A0077F1D5 /* ExpandedPathToSmallIconTransformer.m */,
+				E27C22F20D0EA45A0077F1D5 /* TDPathToNameTransformer.h */,
+				E27C22F30D0EA45A0077F1D5 /* TDPathToNameTransformer.m */,
+			);
+			name = Transformers;
+			sourceTree = "<group>";
+		};
+		E2A8F07E0D47DDD4008866A3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8F0810D47DE18008866A3 /* bundleIcon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Kryptomator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Kryptomator" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kryptomator;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Kryptomator;
+			productReference = 8D1107320486CEB800E47090 /* Kryptomator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Kryptomator" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Kryptomator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Kryptomator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				E21D639E0D10496300825033 /* PreferencesWindow.nib in Resources */,
+				E28FE54E0D38E2EA008EC940 /* Licence Idea in Resources */,
+				E2A8F0820D47DE18008866A3 /* bundleIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				E27C22E80D0EA4540077F1D5 /* TBPluginVerifier.m in Sources */,
+				E27C22E90D0EA4540077F1D5 /* TBKryptomator.m in Sources */,
+				E27C22EA0D0EA4540077F1D5 /* TDObject.m in Sources */,
+				E27C22EB0D0EA4540077F1D5 /* TDDropView.m in Sources */,
+				E27C22EC0D0EA4540077F1D5 /* TBPreferencesWindowController.m in Sources */,
+				E27C22F40D0EA45A0077F1D5 /* ExpandedPathToLargeIconTransformer.m in Sources */,
+				E27C22F50D0EA45A0077F1D5 /* ExpandedPathToSmallIconTransformer.m in Sources */,
+				E27C22F60D0EA45A0077F1D5 /* TDPathToNameTransformer.m in Sources */,
+				E2A8F00D0D47CCE9008866A3 /* TDScreenFlasher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		E21D639C0D10496300825033 /* PreferencesWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E21D639D0D10496300825033 /* English */,
+			);
+			name = PreferencesWindow.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Kryptomator_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Kryptomator;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = Kryptomator_Prefix.pch;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Kryptomator;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Kryptomator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Kryptomator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
