@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E9F9FE9D0D68DEEA005BC870 /* Kryptomator */;
+		activeTarget = 8D1107260486CEB800E47090 /* Kryptomator */;
+		breakpoints = (
+			E9F9FEC20D68E1AC005BC870 /* ARC4Cipher.m:41 */,
+			E9F9FEC40D68E1B2005BC870 /* ARC4Cipher.m:43 */,
+			E9F9FEC60D68E1B4005BC870 /* ARC4Cipher.m:45 */,
+			E9F9FEC80D68E1B8005BC870 /* ARC4Cipher.m:46 */,
+		);
+		codeSenseManager = E9F9FEB80D68DF06005BC870 /* Code sense */;
+		executables = (
+			E9F9FE9D0D68DEEA005BC870 /* Kryptomator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 224976619;
+			PBXWorkspaceStateSaveDate = 224976619;
+		};
+		perUserProjectItems = {
+			E9F9FEF60D68E53F005BC870 /* PBXBookmark */ = E9F9FEF60D68E53F005BC870 /* PBXBookmark */;
+			E9F9FEFA0D68E53F005BC870 /* PBXBookmark */ = E9F9FEFA0D68E53F005BC870 /* PBXBookmark */;
+			E9F9FF0E0D68E795005BC870 /* PBXTextBookmark */ = E9F9FF0E0D68E795005BC870 /* PBXTextBookmark */;
+			E9F9FF0F0D68E795005BC870 /* PBXTextBookmark */ = E9F9FF0F0D68E795005BC870 /* PBXTextBookmark */;
+		};
+		sourceControlManager = E9F9FEB70D68DF06005BC870 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* Kryptomator */ = {
+		activeExec = 0;
+		executables = (
+			E9F9FE9D0D68DEEA005BC870 /* Kryptomator */,
+		);
+	};
+	E27C22DF0D0EA4540077F1D5 /* TBPluginVerifier.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 1582}}";
+			sepNavSelRange = "{535, 53}";
+			sepNavVisRange = "{390, 358}";
+		};
+	};
+	E2B03C9A0D64C77D001AFA50 /* ROT128Cipher.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 2002}}";
+			sepNavSelRange = "{1542, 23}";
+			sepNavVisRange = "{1450, 1121}";
+		};
+	};
+	E2B03D190D64CD1E001AFA50 /* ARC4Cipher.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 798}}";
+			sepNavSelRange = "{1075, 0}";
+			sepNavVisRange = "{162, 1161}";
+			sepNavWindowFrame = "{{512, 67}, {750, 811}}";
+		};
+	};
+	E2B03D1A0D64CD1E001AFA50 /* arc4.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 660}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1605}";
+			sepNavWindowFrame = "{{15, 67}, {750, 811}}";
+		};
+	};
+	E2B03D1B0D64CD1E001AFA50 /* arc4.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 812}}";
+			sepNavSelRange = "{1355, 0}";
+			sepNavVisRange = "{444, 1518}";
+			sepNavWindowFrame = "{{14, 67}, {750, 811}}";
+		};
+	};
+	E2B03D1C0D64CD1E001AFA50 /* ARC4Cipher.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 1834}}";
+			sepNavSelRange = "{1100, 98}";
+			sepNavVisRange = "{952, 488}";
+			sepNavWindowFrame = "{{595, 67}, {750, 811}}";
+		};
+	};
+	E9F9FE9D0D68DEEA005BC870 /* Kryptomator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Kryptomator;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	E9F9FEB70D68DF06005BC870 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	E9F9FEB80D68DF06005BC870 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E9F9FEC20D68E1AC005BC870 /* ARC4Cipher.m:41 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E2B03D1C0D64CD1E001AFA50 /* ARC4Cipher.m */;
+		functionName = "-initCryptoOperationOfKind:withSourcePath:destinationPath:password:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 41;
+		location = Kryptomator;
+		modificationTime = 224978669.795788;
+		state = 2;
+	};
+	E9F9FEC40D68E1B2005BC870 /* ARC4Cipher.m:43 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E2B03D1C0D64CD1E001AFA50 /* ARC4Cipher.m */;
+		functionName = "-initCryptoOperationOfKind:withSourcePath:destinationPath:password:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 43;
+		location = Kryptomator;
+		modificationTime = 224978669.795938;
+		state = 2;
+	};
+	E9F9FEC60D68E1B4005BC870 /* ARC4Cipher.m:45 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E2B03D1C0D64CD1E001AFA50 /* ARC4Cipher.m */;
+		functionName = "-initCryptoOperationOfKind:withSourcePath:destinationPath:password:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 45;
+		location = Kryptomator;
+		modificationTime = 224978669.796043;
+		state = 2;
+	};
+	E9F9FEC80D68E1B8005BC870 /* ARC4Cipher.m:46 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E2B03D1C0D64CD1E001AFA50 /* ARC4Cipher.m */;
+		functionName = "-initCryptoOperationOfKind:withSourcePath:destinationPath:password:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 46;
+		location = Kryptomator;
+		modificationTime = 224978669.796147;
+		state = 2;
+	};
+	E9F9FEF60D68E53F005BC870 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E2B03D190D64CD1E001AFA50 /* ARC4Cipher.h */;
+	};
+	E9F9FEFA0D68E53F005BC870 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E2B03D1B0D64CD1E001AFA50 /* arc4.c */;
+	};
+	E9F9FF0E0D68E795005BC870 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2B03D190D64CD1E001AFA50 /* ARC4Cipher.h */;
+		name = "ARC4Cipher.h: 48";
+		rLen = 0;
+		rLoc = 1075;
+		rType = 0;
+		vrLen = 1161;
+		vrLoc = 162;
+	};
+	E9F9FF0F0D68E795005BC870 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2B03D1B0D64CD1E001AFA50 /* arc4.c */;
+		name = "arc4.c: 35";
+		rLen = 0;
+		rLoc = 1355;
+		rType = 0;
+		vrLen = 1518;
+		vrLoc = 444;
+	};
+}
